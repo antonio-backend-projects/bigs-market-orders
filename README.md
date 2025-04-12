@@ -130,6 +130,30 @@ while True:
     time.sleep(60)  # Pausa di 60 secondi per eseguire il job
 ```
 
+# Ecco dove puoi trovare informazioni sugli ordini degli investitori istituzionali e hedge fund:
+
+1. **Form 13F (USA)**: Puoi consultare i report trimestrali degli investitori istituzionali tramite il **Form 13F** sul sito ufficiale della **SEC** (Securities and Exchange Commission) o su piattaforme come:
+   - **WhaleWisdom** ([whalewisdom.com](https://www.whalewisdom.com/))
+   - **SEC Edgar** ([sec.gov/edgar](https://www.sec.gov/edgar/searchedgar/companysearch.html))
+
+2. **Market Data Providers**:
+   - **Bloomberg**: Se hai accesso a Bloomberg Terminal, puoi usare strumenti come **IMT (Institutional Market Tracker)** e **IP (Investment Position Tracker)**.
+   - **Refinitiv** e **FactSet**: Offrono accesso ai flussi di capitali istituzionali, ma sono soluzioni a pagamento. Le piattaforme come **S&P Capital IQ** forniscono anche dati dettagliati su posizioni e transazioni.
+
+3. **Flussi di Capitali e Hedge Fund Analyses**:
+   - **Hedgeye** ([hedgeye.com](https://www.hedgeye.com/)): Offre report e analisi sul comportamento di hedge fund e istituzionali.
+   - **Bespoke Investment Group** ([bespokeinvest.com](https://www.bespokeinvest.com/)): Fornisce report e indicatori sui movimenti di istituzionali.
+
+4. **Dark Pools**:
+   - Puoi monitorare i dati relativi ai **dark pools** attraverso piattaforme come **FINRA** ([finra.org](https://www.finra.org/)) o attraverso report di broker che monitorano l'attività di questi mercati privati.
+
+5. **Piattaforme di Trading e Broker**:
+   - Alcuni broker, come **Interactive Brokers**, offrono report sui flussi di ordini istituzionali, ma potrebbero essere necessari strumenti specifici per raccogliere i dati più dettagliati.
+
+Se stai cercando dati in tempo reale, **Bloomberg** o **Refinitiv** potrebbero essere le opzioni migliori, ma sono soluzioni costose. Se ti interessa monitorare i report trimestrali (13F), allora **SEC Edgar** o **WhaleWisdom** sono ottimi punti di partenza.
+
+Vuoi un esempio pratico su come navigare una di queste piattaforme?
+
 ## Dettagli scraper
 
 Per creare uno scraper che monitori le transazioni finanziarie dei membri del Congresso degli Stati Uniti, uno dei siti più utilizzati è **QuiverQuant** (https://www.quiverquant.com/). Questo sito raccoglie e visualizza i dati sulle transazioni di insider trading effettuate dai membri del Congresso degli Stati Uniti, come ad esempio gli acquisti e le vendite di azioni.
